@@ -12,7 +12,6 @@ Features:
    * `choria_util` - Utilities used to interrogate version information about the server
    * `rpcutil` - General RPC utilities like extracting facts and statistics, compatible with MCollective as far as possible
    * `discovery` - Agent used to assist broadcast based discovery
-   * `provision` - Beginnings of a Choria self provisioning system
  * A wrapper around the historical Ruby MCollective agent system that can run a MCollective agent in a sandbox without requiring the deprecated `mcollectived` daemon
  * A full featured Go client to the MCollective RPC system that is compatible with Ruby and Go nodes
    * Broadcast discovery
@@ -23,4 +22,3 @@ TODO:
  * Authorization system that matches the action policy feature
  * Support limiting compiled in agents using the new Authorization feature above
  * Ability to execute ruby data plugins during discovery to enable compound filters
-
