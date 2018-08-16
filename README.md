@@ -2,10 +2,10 @@
 
 This is an Agent Provider for the [Choria Server](https://github.com/choria-io/go-choria) that provides compatability with The Marionette Collective (mcollective) Simple RPC system.
 
-Features:
+Agent Features:
 
  * Agent DDLs represented in memory and loaded from JSON files
- * Agents, Actions and Agent Metadata that maps to the same terminology and behaviour as MCollective
+ * Agents, Actions and Agent Metadata that maps to the same terminology and behavior as MCollective
  * Auditing that is compatible with the Ruby based Choria auditing plugin
  * A framework for writing new Agents in Go that can be compiled into the Choria Server
  * Agents written in Go and compiled into the Choria Server:
@@ -13,6 +13,9 @@ Features:
    * `rpcutil` - General RPC utilities like extracting facts and statistics, compatible with MCollective as far as possible
    * `discovery` - Agent used to assist broadcast based discovery
  * A wrapper around the historical Ruby MCollective agent system that can run a MCollective agent in a sandbox without requiring the deprecated `mcollectived` daemon
+
+ Client Features:
+
  * A full featured Go client to the MCollective RPC system that is compatible with Ruby and Go nodes
    * Broadcast discovery
    * RPC Requests with the usual features like batches, direct, broadcast and more
