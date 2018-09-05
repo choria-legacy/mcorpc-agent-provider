@@ -33,6 +33,9 @@ type Stats struct {
 	discoveryStart time.Time
 	discoveryEnd   time.Time
 
+	agent  string
+	action string
+
 	mu   *sync.Mutex
 	once sync.Once
 }
@@ -90,6 +93,26 @@ func (s *Stats) showProgress(ctx context.Context) {
 			return
 		}
 	}
+}
+
+// SetAgent stores the agent the stats is for
+func (s *Stats) SetAgent(a string) {
+	s.agent = a
+}
+
+// SetAction stores the action the stats is for
+func (s *Stats) SetAction(a string) {
+	s.action = a
+}
+
+// Agent returns the agent the stat is for if it was set
+func (s *Stats) Agent() string {
+	return s.agent
+}
+
+// Action returns the action the stat is for if it was set
+func (s *Stats) Action() string {
+	return s.action
 }
 
 // All determines if all expected nodes replied already

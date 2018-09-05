@@ -10,11 +10,11 @@ import (
 	"github.com/choria-io/go-client/discovery/broadcast"
 
 	"github.com/choria-io/go-choria/choria"
-	"github.com/choria-io/mcorpc-agent-provider/mcorpc"
-	addl "github.com/choria-io/mcorpc-agent-provider/mcorpc/ddl/agent"
 	"github.com/choria-io/go-choria/srvcache"
 	cclient "github.com/choria-io/go-client/client"
 	"github.com/choria-io/go-protocol/protocol"
+	"github.com/choria-io/mcorpc-agent-provider/mcorpc"
+	addl "github.com/choria-io/mcorpc-agent-provider/mcorpc/ddl/agent"
 
 	"github.com/sirupsen/logrus"
 )
@@ -166,6 +166,9 @@ func (r *RPC) Do(ctx context.Context, action string, payload interface{}, opts .
 	})
 
 	r.opts.totalStats.End()
+
+	r.opts.totalStats.SetAgent(r.agent)
+	r.opts.totalStats.SetAction(action)
 
 	return &RequestOptions{totalStats: r.opts.totalStats}, err
 }
