@@ -1,5 +1,9 @@
 |Date      |Issue |Description                                                                                              |
 |----------|------|---------------------------------------------------------------------------------------------------------|
+|2018/09/15|      |Release 0.3.0                                                                                            |
+|2018/09/15|26    |Support the new Choria plugin system                                                                     |
+|2018/09/05|18    |When doing discovery ensure the agent is in the filter                                                   |
+|2018/09/05|19    |Record `agent` and `action` in the stats recorded by the client                                          |
 |2018/08/16|      |Release 0.2.0                                                                                            |
 |2018/08/16|13-15 |Rework discovery helper to fit better with overall package design                                        |
 |2018/08/09|      |Release 0.1.0                                                                                            |
