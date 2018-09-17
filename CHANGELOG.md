@@ -1,5 +1,7 @@
 |Date      |Issue |Description                                                                                              |
 |----------|------|---------------------------------------------------------------------------------------------------------|
+|2018/09/16|      |Release 0.3.1                                                                                            |
+|2018/09/16|29    |Adds an utility to generate Choria agent plugins                                                         |
 |2018/09/15|      |Release 0.3.0                                                                                            |
 |2018/09/15|26    |Support the new Choria plugin system                                                                     |
 |2018/09/05|18    |When doing discovery ensure the agent is in the filter                                                   |
