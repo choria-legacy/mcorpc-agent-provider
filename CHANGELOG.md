@@ -1,5 +1,7 @@
 |Date      |Issue |Description                                                                                              |
 |----------|------|---------------------------------------------------------------------------------------------------------|
+|2018/12/19|      |Release 0.3.2                                                                                            |
+|2018/12/19|33    |Report protocol security and connector TLS in choria_util#info                                           |
 |2018/09/16|      |Release 0.3.1                                                                                            |
 |2018/09/16|29    |Adds an utility to generate Choria agent plugins                                                         |
 |2018/09/15|      |Release 0.3.0                                                                                            |
