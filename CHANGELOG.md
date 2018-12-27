@@ -1,5 +1,7 @@
 |Date      |Issue |Description                                                                                              |
 |----------|------|---------------------------------------------------------------------------------------------------------|
+|2018/12/27|      |Release 0.3.3                                                                                            |
+|2018/12/26|36    |Increase `choria_util` agent timeout to facilitate slow facter runs                                      |
 |2018/12/19|      |Release 0.3.2                                                                                            |
 |2018/12/19|33    |Report protocol security and connector TLS in choria_util#info                                           |
 |2018/09/16|      |Release 0.3.1                                                                                            |
