@@ -1,5 +1,8 @@
 |Date      |Issue |Description                                                                                              |
 |----------|------|---------------------------------------------------------------------------------------------------------|
+|2018/05/23|      |Release 0.4.0                                                                                            |
+|2018/05/23|47    |Log discovery requests in a similar way to rpc requests                                                  |
+|2018/05/02|28,42 |Support Choria Autonomous Agents in `choria_util`                                                        |
 |2018/12/27|      |Release 0.3.3                                                                                            |
 |2018/12/26|36    |Increase `choria_util` agent timeout to facilitate slow facter runs                                      |
 |2018/12/19|      |Release 0.3.2                                                                                            |
