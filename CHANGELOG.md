@@ -1,5 +1,7 @@
 |Date      |Issue |Description                                                                                              |
 |----------|------|---------------------------------------------------------------------------------------------------------|
+|2019/06/21|      |Release 0.4.1                                                                                            |
+|2019/06/21|      |Support `go mod`                                                                                         |
 |2018/05/23|      |Release 0.4.0                                                                                            |
 |2018/05/23|47    |Log discovery requests in a similar way to rpc requests                                                  |
 |2018/05/02|28,42 |Support Choria Autonomous Agents in `choria_util`                                                        |
