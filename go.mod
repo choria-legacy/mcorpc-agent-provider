@@ -9,10 +9,7 @@ require (
 	github.com/choria-io/go-protocol v1.3.1
 	github.com/choria-io/go-srvcache v0.0.6-0.20190626100940-2661e30c5679
 	github.com/choria-io/go-validator v1.1.1
-	github.com/choria-io/provisioning-agent v0.4.5
 	github.com/golang/mock v1.3.1
-	github.com/nats-io/go-nats v1.7.2 // indirect
-	github.com/nats-io/nats-streaming-server v0.15.1 // indirect
 	github.com/nats-io/nats.go v1.8.1
 	github.com/onsi/ginkgo v1.8.0
 	github.com/onsi/gomega v1.5.0
