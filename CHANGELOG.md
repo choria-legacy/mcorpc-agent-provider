@@ -1,5 +1,8 @@
 |Date      |Issue |Description                                                                                              |
 |----------|------|---------------------------------------------------------------------------------------------------------|
+|2019/07/24|      |Release 0.5.0                                                                                            |
+|2019/06/27|58    |Allow go agents to determine at run time if they should activate                                         |
+|2019/06/26|53    |Use extracted `go-config` and `go-srvcache`, improve use of interfaces                                   |
 |2019/06/21|      |Release 0.4.1                                                                                            |
 |2019/06/21|      |Support `go mod`                                                                                         |
 |2018/05/23|      |Release 0.4.0                                                                                            |
