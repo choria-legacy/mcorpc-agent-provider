@@ -48,6 +48,11 @@ func (p *Provider) RegisterAgents(ctx context.Context, mgr server.AgentManager, 
 			continue
 		}
 
+		if !agent.ShouldActivate() {
+			p.log.Warnf("Plugin %s is not enabled, skipping", ddl.Metadata.Name)
+			continue
+		}
+
 		err = mgr.RegisterAgent(ctx, agent.Name(), agent, connector)
 		if err != nil {
 			p.log.Errorf("Could not register Ruby agent %s: %s", ddl.Metadata.Name, err)
