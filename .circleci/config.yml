@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/golang:1.12
+      - image: circleci/golang:1.13
 
     working_directory: /go/src/github.com/choria-io/mcorpc-agent-provider
 
@@ -12,6 +12,5 @@ jobs:
     steps:
       - checkout
 
-      - run: go mod vendor
       - run: go get github.com/onsi/ginkgo/ginkgo
       - run: ginkgo -r -skipMeasurements mcorpc
