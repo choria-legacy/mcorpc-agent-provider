@@ -4,10 +4,10 @@ go 1.12
 
 require (
 	github.com/choria-io/go-choria v0.0.0-20190626112527-fb70711a169d
-	github.com/choria-io/go-client v0.4.3-0.20190626150123-ddebe7dca345
-	github.com/choria-io/go-config v0.0.2-0.20190626111446-bb1475fe483b
+	github.com/choria-io/go-client v0.5.0
+	github.com/choria-io/go-config v0.0.3
 	github.com/choria-io/go-protocol v1.3.1
-	github.com/choria-io/go-srvcache v0.0.6-0.20190626100940-2661e30c5679
+	github.com/choria-io/go-srvcache v0.0.6
 	github.com/choria-io/go-validator v1.1.1
 	github.com/golang/mock v1.3.1
 	github.com/nats-io/nats.go v1.8.1
