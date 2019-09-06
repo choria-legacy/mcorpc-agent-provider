@@ -1,5 +1,10 @@
 |Date      |Issue |Description                                                                                              |
 |----------|------|---------------------------------------------------------------------------------------------------------|
+|2019/09/05|      |Release 0.6.0                                                                                            |
+|2019/09/05|81    |Add callbacks before and after discovery to assist clients with progress indicators and feedback         |
+|2019/09/05|72    |Add `summary` and `average` aggregation methods for reply data                                           |
+|2019/09/03|68    |Add utilities for limiting the request targets - percentage or specific counts                           |
+|2019/08/18|62    |Support checking `plugin.$agent.activate_agent` when loading ruby agents                                 |
 |2019/07/24|      |Release 0.5.0                                                                                            |
 |2019/06/27|58    |Allow go agents to determine at run time if they should activate                                         |
 |2019/06/26|53    |Use extracted `go-config` and `go-srvcache`, improve use of interfaces                                   |
