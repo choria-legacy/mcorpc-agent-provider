@@ -1,5 +1,7 @@
 |Date      |Issue |Description                                                                                              |
 |----------|------|---------------------------------------------------------------------------------------------------------|
+|2019/09/05|      |Release 0.6.1                                                                                            |
+|2019/09/05|86    |Add a `chart` aggregator                                                                                 |
 |2019/09/05|      |Release 0.6.0                                                                                            |
 |2019/09/05|81    |Add callbacks before and after discovery to assist clients with progress indicators and feedback         |
 |2019/09/05|72    |Add `summary` and `average` aggregation methods for reply data                                           |
