@@ -1,5 +1,9 @@
 |Date      |Issue |Description                                                                                              |
 |----------|------|---------------------------------------------------------------------------------------------------------|
+|2019/09/07|      |Release 0.7.0                                                                                            |
+|2019/09/07|88    |Support converting string from the CLI to the correct data types for any input                           |
+|2019/09/07|88    |Support `shellsafe`, `ipv4address`, `ipv6address`, `ipaddress`, `shellsafe` and regex validators         |
+|2019/09/07|88    |Support `input` in action DDLs                                                                           |
 |2019/09/05|      |Release 0.6.1                                                                                            |
 |2019/09/05|86    |Add a `chart` aggregator                                                                                 |
 |2019/09/05|      |Release 0.6.0                                                                                            |
