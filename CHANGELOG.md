@@ -1,5 +1,9 @@
 |Date      |Issue |Description                                                                                              |
 |----------|------|---------------------------------------------------------------------------------------------------------|
+|2019/09/08|      |Release 0.7.1                                                                                            |
+|2019/09/08|94    |Support type hints on outputs                                                                            |
+|2019/09/08|93    |Support setting defaults on inputs and outputs based on DDL hints                                        |
+|2019/09/08|93    |Support `Hash`, `hash`, `Array` and `array` as types in DDL inputs and outputs                           |
 |2019/09/07|      |Release 0.7.0                                                                                            |
 |2019/09/07|88    |Support converting string from the CLI to the correct data types for any input                           |
 |2019/09/07|88    |Support `shellsafe`, `ipv4address`, `ipv6address`, `ipaddress`, `shellsafe` and regex validators         |
