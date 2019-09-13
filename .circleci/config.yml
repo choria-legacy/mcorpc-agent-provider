@@ -2,12 +2,14 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/golang:1.13
+      - image: choria/packager:el7-go1.13-puppet
 
     working_directory: /go/src/github.com/choria-io/mcorpc-agent-provider
 
     environment:
       GO111MODULE: "on"
+      CGO_ENABLED: "0"
+      PATH: /go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/go/bin:/opt/puppetlabs/bin
 
     steps:
       - checkout
