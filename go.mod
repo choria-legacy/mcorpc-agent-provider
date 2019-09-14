@@ -3,6 +3,7 @@ module github.com/choria-io/mcorpc-agent-provider
 go 1.12
 
 require (
+	github.com/apex/log v1.1.1
 	github.com/choria-io/go-choria v0.0.0-20190626112527-fb70711a169d
 	github.com/choria-io/go-client v0.5.0
 	github.com/choria-io/go-config v0.0.4-0.20190914115046-53ac9c8e4c1d
