@@ -5,7 +5,7 @@ go 1.12
 require (
 	github.com/choria-io/go-choria v0.12.1-0.20190916070606-982852d30827
 	github.com/choria-io/go-client v0.5.0
-	github.com/choria-io/go-config v0.0.4-0.20190916071907-88af84ddd014
+	github.com/choria-io/go-config v0.0.4-0.20190917140504-89b909578aaf
 	github.com/choria-io/go-lifecycle v1.0.3
 	github.com/choria-io/go-protocol v1.3.2
 	github.com/choria-io/go-srvcache v0.0.6
