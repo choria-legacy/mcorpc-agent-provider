@@ -1,5 +1,11 @@
 |Date      |Issue |Description                                                                                              |
 |----------|------|---------------------------------------------------------------------------------------------------------|
+|2019/09/19|      |Release 0.8.0                                                                                            |
+|2019/09/17|112   |Create an `action_policy` like authorization framework                                                   |
+|2019/09/16|23    |Remove old progress system                                                                               |
+|2019/09/14|97    |Support `External Agents`                                                                                |
+|2019/09/13|102   |Support generating a Ruby DDL                                                                            |
+|2019/09/12|99    |Prevent the ruby provider from attempting to start agents it does not know                               |
 |2019/09/08|      |Release 0.7.1                                                                                            |
 |2019/09/08|94    |Support type hints on outputs                                                                            |
 |2019/09/08|93    |Support setting defaults on inputs and outputs based on DDL hints                                        |
