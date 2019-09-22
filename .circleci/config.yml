@@ -13,6 +13,6 @@ jobs:
 
     steps:
       - checkout
-
       - run: go get github.com/onsi/ginkgo/ginkgo
+      - run: go mod download
       - run: ginkgo -r -skipMeasurements mcorpc
