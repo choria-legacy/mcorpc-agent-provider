@@ -12,10 +12,10 @@ require (
 	github.com/choria-io/go-validator v1.1.1
 	github.com/golang/mock v1.3.1
 	github.com/guptarohit/asciigraph v0.4.1
-	github.com/nats-io/nats.go v1.8.1
-	github.com/onsi/ginkgo v1.10.1
-	github.com/onsi/gomega v1.7.0
+	github.com/nats-io/nats.go v1.9.1
+	github.com/onsi/ginkgo v1.10.3
+	github.com/onsi/gomega v1.7.1
 	github.com/sirupsen/logrus v1.4.2
-	github.com/tidwall/gjson v1.3.2
-	go.uber.org/atomic v1.4.0
+	github.com/tidwall/gjson v1.3.5
+	go.uber.org/atomic v1.5.1
 )
