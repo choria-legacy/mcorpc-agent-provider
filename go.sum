@@ -49,6 +49,8 @@ github.com/choria-io/go-client v0.4.3-0.20190626102458-2ce4fef30af5/go.mod h1:2A
 github.com/choria-io/go-client v0.4.3-0.20190626150123-ddebe7dca345/go.mod h1:2tyj9CRzqew0k6icWnWkvwNfu+WXUNdvtm+Gu3RVhYg=
 github.com/choria-io/go-client v0.5.0 h1:cB14NTd21vs2NgfpL0Wihhg30dQ6udmOsxnBKJWgrQc=
 github.com/choria-io/go-client v0.5.0/go.mod h1:2tyj9CRzqew0k6icWnWkvwNfu+WXUNdvtm+Gu3RVhYg=
+github.com/choria-io/go-client v0.5.2-0.20190919155331-b32ad7c92f15 h1:bvL+gl81dOWup9RDf1KPob3/ojyoCDa8Qx+p/63sW5w=
+github.com/choria-io/go-client v0.5.2-0.20190919155331-b32ad7c92f15/go.mod h1:4vK9a95MgoBdpGaAXJxltn99Kd8X+f3XI3fD89pj10c=
 github.com/choria-io/go-config v0.0.0-20190625114926-34befa33b967/go.mod h1:YEb0InKPzG3wRSbfN3xZ/MjQ1FEzbmeq9FAo6yUnylM=
 github.com/choria-io/go-config v0.0.1 h1:5vvMB5MXdoZiK7GA35XKmnEqrznkb2CaaxEdXpN1ju0=
 github.com/choria-io/go-config v0.0.1/go.mod h1:YEb0InKPzG3wRSbfN3xZ/MjQ1FEzbmeq9FAo6yUnylM=
