@@ -17,6 +17,7 @@ This is an Agent Provider for the [Choria Server](https://github.com/choria-io/g
    * `rpcutil` - General RPC utilities like extracting facts and statistics, compatible with MCollective as far as possible
    * `discovery` - Agent used to assist broadcast based discovery
  * A wrapper around the historical Ruby MCollective agent system that can run a MCollective agent in a sandbox without requiring the deprecated `mcollectived` daemon
+ * A fully compatible Go implementation of the [action policy framework](https://github.com/choria-plugins/action-policy). In a future Choria release, this will become the default action policy implementation.
 
 ### Client Features:
 
