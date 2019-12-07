@@ -1,12 +1,12 @@
 module github.com/choria-io/mcorpc-agent-provider
 
-go 1.12
+go 1.13
 
 require (
-	github.com/choria-io/go-choria v0.12.1-0.20190919154218-95d70c768260
-	github.com/choria-io/go-client v0.5.2-0.20190919155331-b32ad7c92f15
-	github.com/choria-io/go-config v0.0.4
-	github.com/choria-io/go-lifecycle v1.0.4
+	github.com/choria-io/go-choria v0.12.1
+	github.com/choria-io/go-client v0.5.2
+	github.com/choria-io/go-config v0.0.5
+	github.com/choria-io/go-lifecycle v1.1.0
 	github.com/choria-io/go-protocol v1.3.2
 	github.com/choria-io/go-srvcache v0.0.6
 	github.com/choria-io/go-validator v1.1.1

@@ -1,5 +1,11 @@
 |Date      |Issue |Description                                                                                              |
 |----------|------|---------------------------------------------------------------------------------------------------------|
+|2019/12/07|      |Release 0.9.0                                                                                            |
+|2019/12/03|134   |Support regular expressions in callerid matches in action policy                                         |
+|2019/11/28|57    |Improve Ruby DDL generation                                                                              |
+|2019/11/27|128   |Correctly track total time spend processing requests                                                     |
+|2019/11/25|126   |Improve handling for actions without any inputs in DDL validation                                        |
+|2019/09/22|121   |Expose the path to the agent configuration to external agents                                            |
 |2019/09/19|      |Release 0.8.0                                                                                            |
 |2019/09/17|112   |Create an `action_policy` like authorization framework                                                   |
 |2019/09/16|23    |Remove old progress system                                                                               |
