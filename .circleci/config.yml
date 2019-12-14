@@ -13,6 +13,10 @@ jobs:
 
     steps:
       - checkout
-      - run: go get github.com/onsi/ginkgo/ginkgo
       - run: go mod download
+      - run: go get github.com/onsi/ginkgo/ginkgo
+      - run: go get -u honnef.co/go/tools/cmd/staticcheck
+      - run: go get -u github.com/client9/misspell/cmd/misspell
+      - run: go list ./...|xargs staticcheck
+      - run: find . -type f -name "*.go" | grep -v "/vendor/" | xargs misspell -error -locale US -i flavour
       - run: ginkgo -r -skipMeasurements mcorpc
