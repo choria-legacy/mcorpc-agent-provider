@@ -7,7 +7,7 @@ require (
 	github.com/choria-io/go-client v0.5.3-0.20191222213419-4504e6c59393
 	github.com/choria-io/go-config v0.0.6-0.20191214141246-32872409688e
 	github.com/choria-io/go-lifecycle v1.1.0
-	github.com/choria-io/go-protocol v1.3.3-0.20191222211307-b08a8ffce4a2
+	github.com/choria-io/go-protocol v1.3.3-0.20191223150207-71c1238c6c45
 	github.com/choria-io/go-srvcache v0.0.6
 	github.com/choria-io/go-validator v1.1.1
 	github.com/golang/mock v1.3.1

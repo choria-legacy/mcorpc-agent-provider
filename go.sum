@@ -72,6 +72,7 @@ github.com/choria-io/go-choria v0.12.1-0.20190919154218-95d70c768260/go.mod h1:d
 github.com/choria-io/go-choria v0.12.1 h1:W4Nd/1xfcoW2+ek85BAOlNCsdabdJPcZkrdYgqZyoEI=
 github.com/choria-io/go-choria v0.12.1/go.mod h1:9RBs35nnX3ALByvgkvHkSQS6vtHVjAS//1HcQUdcStY=
 github.com/choria-io/go-choria v0.12.2-0.20191025130451-091256f29013/go.mod h1:ImHvqpOT6NQrd7k9GWhu7tAbQXX5Pi3z6t/BrVXEtdY=
+github.com/choria-io/go-choria v0.13.0/go.mod h1:DPzNux8hy4oa3WKJGcg/bLUi0CUnvUYA66BDR61iQBo=
 github.com/choria-io/go-choria v0.13.1-0.20191222210956-2291fc70abd6 h1:Df9BqYaaSGdrqh3U1pGBPoy6tkfINAI+8zSiEWMri3A=
 github.com/choria-io/go-choria v0.13.1-0.20191222210956-2291fc70abd6/go.mod h1:GALcrozOSIF5m4Ksx/ROhbDK6bPjw+7lnMKkFifKizk=
 github.com/choria-io/go-client v0.4.3-0.20190626102458-2ce4fef30af5 h1:fybxn14aGlEscXGPpfy1iFGmjrHP+s5Hv4WpKQ+mDkQ=
@@ -132,6 +133,8 @@ github.com/choria-io/go-protocol v1.3.3-0.20191215145740-a865d99ce002 h1:9THsfWE
 github.com/choria-io/go-protocol v1.3.3-0.20191215145740-a865d99ce002/go.mod h1:Aht3YYXr/Nd1TuF/yJr0RPaIE9Rf/5CQxZG03U3qirI=
 github.com/choria-io/go-protocol v1.3.3-0.20191222211307-b08a8ffce4a2 h1:TUXdGu4r+/mmVgoCfPynfD2lk8CM0LNebpR73jOm3gI=
 github.com/choria-io/go-protocol v1.3.3-0.20191222211307-b08a8ffce4a2/go.mod h1:Aht3YYXr/Nd1TuF/yJr0RPaIE9Rf/5CQxZG03U3qirI=
+github.com/choria-io/go-protocol v1.3.3-0.20191223150207-71c1238c6c45 h1:pa98AwUAGvYoobTW+4Iin/4Ta59LEjwAw15n/NXhHcU=
+github.com/choria-io/go-protocol v1.3.3-0.20191223150207-71c1238c6c45/go.mod h1:Ijaj7IjV0bTRK7wPyUM/gT4tn263PFe6UwE1ucaprPQ=
 github.com/choria-io/go-puppet v0.0.1 h1:vvvMwgLeZDjHXGHhMVAVC9YwMKegcywSqrmyFcnD/jk=
 github.com/choria-io/go-puppet v0.0.1/go.mod h1:wjpGRZkoInlkJkmIASEgndXHeofu0uzkLJjo9A2PTxI=
 github.com/choria-io/go-security v0.4.3 h1:NtaczfebNKlDCu2w2JxJXyeICB6hK0C1Ety+tfdrIGo=
