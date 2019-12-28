@@ -12,6 +12,7 @@ require (
 	github.com/choria-io/go-validator v1.1.1
 	github.com/golang/mock v1.3.1
 	github.com/guptarohit/asciigraph v0.4.1
+	github.com/nats-io/nats-server/v2 v2.1.2
 	github.com/nats-io/nats.go v1.9.1
 	github.com/onsi/ginkgo v1.11.0
 	github.com/onsi/gomega v1.8.1
