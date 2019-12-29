@@ -9,6 +9,7 @@ require (
 	github.com/choria-io/go-lifecycle v1.1.0
 	github.com/choria-io/go-protocol v1.3.3-0.20191223150207-71c1238c6c45
 	github.com/choria-io/go-srvcache v0.0.6
+	github.com/choria-io/go-testutil v0.0.0-20191229210946-b9224ddf14db
 	github.com/choria-io/go-validator v1.1.1
 	github.com/golang/mock v1.3.1
 	github.com/guptarohit/asciigraph v0.4.1
