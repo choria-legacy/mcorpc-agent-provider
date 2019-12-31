@@ -11,12 +11,16 @@ require (
 	github.com/choria-io/go-srvcache v0.0.6
 	github.com/choria-io/go-testutil v0.0.0-20191229210946-b9224ddf14db
 	github.com/choria-io/go-validator v1.1.1
+	github.com/fatih/color v1.7.0
 	github.com/golang/mock v1.3.1
 	github.com/guptarohit/asciigraph v0.4.1
 	github.com/nats-io/nats.go v1.9.1
 	github.com/onsi/ginkgo v1.11.0
 	github.com/onsi/gomega v1.8.1
+	github.com/open-policy-agent/opa v0.16.0
 	github.com/sirupsen/logrus v1.4.2
 	github.com/tidwall/gjson v1.3.5
+	github.com/tidwall/pretty v1.0.0
 	go.uber.org/atomic v1.5.1
+	golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4
 )
