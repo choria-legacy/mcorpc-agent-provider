@@ -1,5 +1,9 @@
 |Date      |Issue |Description                                                                                              |
 |----------|------|---------------------------------------------------------------------------------------------------------|
+|2020/01/12|      |Release 0.10.0                                                                                           |
+|2019/12/24|152   |Add a Rego policy engine                                                                                 |
+|2019/12/25|134   |Support formatting aggregates for display                                                                |
+|2019/12/24|143   |Support formatting RPC replies for console use                                                           |
 |2019/12/07|      |Release 0.9.0                                                                                            |
 |2019/12/03|134   |Support regular expressions in callerid matches in action policy                                         |
 |2019/11/28|57    |Improve Ruby DDL generation                                                                              |
