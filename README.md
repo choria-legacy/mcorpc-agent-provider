@@ -1,5 +1,7 @@
 # Choria `mcorpc` Agent Provider
 
+**This repository is now archived, code is now part of github.com/choria-io/go-choria**
+
 [![Go Report Card](https://goreportcard.com/badge/github.com/choria-io/mcorpc-agent-provider)](https://goreportcard.com/report/github.com/choria-io/mcorpc-agent-provider) [![GoDoc](https://godoc.org/github.com/choria-io-mcorpc-agent-provider?status.svg)](https://godoc.org/github.com/choria-io/mcorpc-agent-provider)
 
 This is an Agent Provider for the [Choria Server](https://github.com/choria-io/go-choria) that provides compatability with The Marionette Collective (mcollective) Simple RPC system.
